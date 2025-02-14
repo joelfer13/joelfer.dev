@@ -15,7 +15,7 @@ const routes = {
     <p>Below is a summary of projects I've worked on.</p>
 
          <div class="project">
-     <img src="./assets/csgo.jpg" alt="Counter-Strike Server" class="project-image">
+     <img src="/joelfer.dev/assets/csgo.jpg" alt="Counter-Strike Server" class="project-image">
         <h3>Counter-Strike Server Setup</h3>
         <span class="tag">Plugins</span>
         <span class="tag">Networking</span>
@@ -28,7 +28,7 @@ const routes = {
     <h3>Bachelor's Project</h3>
     <div class="tags">
         <span class="tag tag-python">
-            <img src="./assets/python.png" alt="Python logo" class="tag-icon"> PYTHON
+            <img src="/joelfer.dev/assets/python.png" alt="Python logo" class="tag-icon"> PYTHON
         </span>
     </div>
     <p>In collaboration with a team of researchers, I developed a project applying Vision Transformers for early detection of optic disc excavation.
