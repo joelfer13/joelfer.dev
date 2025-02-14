@@ -1,0 +1,149 @@
+/* Estilos gerais */
+
+
+.font-title {
+    font-family: 'Lexend', serif; /* Fonte Patrick Hand */
+    font-size: 1.6rem; /* Tamanho maior para o título */
+    color: #ffffff; /* Cor branca */
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+}
+
+body {
+    font-family: 'Lexend', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1c1f; /* Fundo ainda mais escuro */
+    color: #e0e0e0; /* Texto claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff; /* Tom mais claro de roxo */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #afaeae;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 700px;
+    padding: 40px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #a970ff; /* Destaque roxo */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #a970ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.project {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tags {
+    margin: 5px 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.tag-red { background-color: #ff4b4b; }
+.tag-green { background-color: #4caf50; }
+.tag-black { background-color: #000; }
+
+.project-image {
+    float: right; /* Flutuar à esquerda */
+    margin-top: 10px;
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    width: 40px; /* Largura da imagem */
+    height: 40px; /* Altura automática para manter a proporção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.tag-python {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Espaço entre a imagem e o texto */
+    padding: 5px 10px;
+    background-color: #e9f895ad; /* Azul Python */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tag-python .tag-icon {
+    width: 16px; /* Tamanho da imagem */
+    height: 16px;
+    
+}
+
+
+.project {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
